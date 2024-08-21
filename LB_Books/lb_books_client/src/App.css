@@ -1,0 +1,95 @@
+@media (max-width: 1080px) {
+  .shop-card {
+   height: 800px;
+  }
+
+}
+@media (max-width: 768px) {
+  .shop-card {
+    height: 600px;
+   }
+}
+@media (max-width: 480px) {
+  .shop-card {
+    height: 600px;
+   }
+}
+
+.App {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+div {
+  padding: 5px;
+}
+
+.search-card {
+  margin: 20px;
+  padding: 10px;
+}
+
+.shop-card {
+  height: 500px;
+}
+
+.shop-card img {
+
+}
+
+.main-btn {
+  width: 100px;
+  padding: 5px;
+  margin: 10px;
+  background-color: firebrick;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+.sec-btn {
+  width: 100px;
+  padding: 3px;
+  margin: 10px;
+  background-color: rgb(253, 226, 226);
+  border: firebrick 1.5px solid;
+  border-radius: 8px;
+  color: firebrick;
+}
+
+.input {
+  padding: 5px;
+  margin: 10px;
+  border: firebrick .5px solid;
+  border-radius: 8px;
+}
+
+.search-input {
+  width: 90%;
+}
+
+.search-icon {
+  width: 35px;
+  padding: 5px;
+  background-color: firebrick;
+  color: white;
+  border-radius: 8px;
+}
+
+.search-bar {
+  border: firebrick 1.5px solid;
+  border-radius: 14px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
